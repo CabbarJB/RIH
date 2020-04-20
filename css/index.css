@@ -1,0 +1,146 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #2a7cf6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header-logo-container{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+.header-logo-wrapper{
+    width: 52px;
+    margin-right: 10px;
+
+}
+.header-logo{
+    width: 100%;
+}
+.header-title p:first-child{
+    margin-bottom: 5px;
+}
+.header-mid{
+    display: flex;
+    align-items: center;
+}
+.header-nav-menu{
+    display: flex;
+
+}
+.nav-menu-item{
+    margin-right: 50px;
+    padding: 40px 0px;
+}
+.nav-menu-item a{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu-item-active{
+    box-shadow: inset 0px -8px white;
+}
+
+.nav-menu-item:last-child{
+    margin-right: 0;
+}
+
+.personal-cabinet-btn{
+    border: 1px solid white;
+    width: 250px;
+    color: white;
+    background-color: transparent;
+    padding: 15px 0px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.personal-cabinet-btn:hover{
+    background-color: white;
+    color: #2a7cf6;
+}
+
+main{
+    background: url("../img/index-bg.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.main-content{
+padding: 255px 0px 375px 0px;
+}
+
+.main-content-half-transparent-bg{
+    background: rgb(66,76,110);
+    background: linear-gradient(90deg, rgba(66,76,110,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.main-content-txt{
+    color: white;
+    width: 50%;
+}
+.main-content-title{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.main-content-subtitle{
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.main-content-apply-btn{
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    color: #2a7cf6;
+     font-weight: 700;
+    border: 1px solid #2a7cf6;
+    border-radius: 10px;
+}
+
+.main-content-apply-btn:hover{
+    background-color: #2a7cf6;
+    color: white;
+}
+
+.main-footer{
+    width: 100%;
+    padding: 38px;
+    background-color: rgba(66,76,110,0.6);
+
+}
+
+.main-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-footer-item{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.main-footer-item i {
+    margin-right: 15px;
+    font-size: 25px;
+}
+.main-footer-item-txt{
+    font-size: 14px;
+}
+.main-footer-item:nth-child(2) i{
+    transform: rotate(-270deg);
+}
